@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Título da pagina</title>
+  </head>
+  <body>
+    <script>
+      let nome = 'Joao'; // String - Texto
+      let peso = 90; // Number - Numeros
+      let ativo = false; //Boolean
+      let idades = [3, 4, 5]; // Array
+
+      let pessoa = {
+        nome: 'Maria',
+        idade: 15,
+      };
+
+      console.log('Ola ' + pessoa.nome);
+
+      if (pessoa.idade > 18) {
+        console.log('Voce é maior');
+      } else {
+        console.log('Vc é menor');
+      }
+
+      for (let i = 1; i <= 10; i++) {
+        console.log(`Numero ${i}`);
+      }
+
+      function somar(a, b) {
+        return a + b;
+      }
+
+      let soma = somar(3, 5);
+      console.log('a soma é ' + soma);
+    </script>
+  </body>
+</html>
